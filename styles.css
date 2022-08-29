@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+
+}
+
+
+.guia_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 2rem;
+    border: 2px solid black;
+    width: 60%;
+    margin: 2rem;
+    flex-basis: 30%;
+    margin-bottom: 2rem;
+}
+
+.guia_container label {
+    display: inline-flex;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+.seguimiento_label p{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.seguimiento_label input{
+    margin-right: 1rem;
+}
+
+.guia_label p{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
